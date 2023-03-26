@@ -1,0 +1,55 @@
+body{
+  background-image: url(assets/fundo.svg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  overflow: hidden;
+
+}
+
+.grid{
+  display: flex;
+  gap: 52px;
+  margin: 180px 245px 188px 188px;
+}
+
+.asset img:hover{
+  animation: opacity 700ms;
+}
+
+.asset:hover{
+  cursor: pointer;
+  animation: toupeiras 700ms;
+  animation-iteration-count: 1;
+
+}
+@keyframes opacity{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+@keyframes toupeiras{
+  0%{
+    background-image: url(./assets/toupeira1.svg);
+  }
+  20%{
+    background-image: url(./assets/toupeira2.svg);
+  }
+  40%{
+    background-image: url(./assets/toupeira3.svg);
+  }
+  60%{
+    background-image: url(./assets/toupeira4.svg);
+  }
+  80%{
+    background-image: url(./assets/toupeira5.svg);
+  }
+  100%{
+    background-image: url(./assets/toupeira6.svg);
+  }
+}
+
